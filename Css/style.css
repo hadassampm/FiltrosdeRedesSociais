@@ -85,9 +85,6 @@ ul.dropdown-menu.show{
 @media (max-width: 968px) {
 
     a.navbar-brand {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
         margin-right: 0%;
         cursor: pointer;
     }
@@ -156,6 +153,76 @@ ul.dropdown-menu.show{
     }
 }
 
+@media (max-width: 360px) {
+
+    a.navbar-brand {
+        margin-right: 0%;
+        cursor: pointer;
+    }
+    
+    nav .navbar-toggler {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    nav .navbar-collapse {
+        text-align: left; /* Alinha os itens do menu para a direita em dispositivos móveis */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    nav .nav-item {
+        text-align: left; /* Garante que os itens do menu estejam alinhados à direita */
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .dropdown-menu .dropdown-item {
+        background-color:  #fc65ac;
+        color:  #ffffff;
+        line-height: 40px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    img.img-fluid {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 60px; /* Distância do topo */
+        transition: top 0.5s ease; /* Efeito de transição suave */
+        box-shadow: 0px 0px 30px  white; /* Sombra inicial transparente */
+    }
+    
+    h1.titulo-rosa {
+        color:  #fc65ac;
+        font-size: 30px;
+        margin-top: 40px;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    p.texto{
+        color: white;
+        font-size: 22px;
+        text-align: justify;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    img.img-primeira{
+        width: 85%;
+        margin-top: 0px; /* Reduz a distância do topo ao passar o mouse */
+    }
+    h1.ass-1{
+        font-family:"Anton", sans-serif ;
+        color:#ffffff;
+        margin-top: 48px;
+        font-size: 25px;
+    }
+}
 
 /*SLIDE*/
 /* Estilo básico para a imagem */
