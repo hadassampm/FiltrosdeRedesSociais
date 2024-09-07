@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+.container {
+    flex: 1; /* Garante que o conteúdo ocupe o espaço disponível */
+}
+
+/*MENU*/
+
+.collapse.navbar-collapse .navbar-nav{
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.collapse.navbar-collapse{
+    background-color: #fc65ac;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 20px;
+   cursor: pointer;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    background-color: #fc65ac;
+    border-top: 3px solid pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item {
+    background-color:  #fc65ac;
+    color:  #ffffff;
+    line-height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #e7006c;
+    background-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+ul.dropdown-menu.show{
+    background-color:  #fc65ac;
+}
+
+@media (max-width: 968px) {
+
+    a.navbar-brand {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin-right: 0%;
+        cursor: pointer;
+    }
+    
+    nav .navbar-toggler {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    nav .navbar-collapse {
+        text-align: left; /* Alinha os itens do menu para a direita em dispositivos móveis */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    nav .nav-item {
+        text-align: left; /* Garante que os itens do menu estejam alinhados à direita */
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .dropdown-menu .dropdown-item {
+        background-color:  #fc65ac;
+        color:  #ffffff;
+        line-height: 40px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    img.img-fluid {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 60px; /* Distância do topo */
+        transition: top 0.5s ease; /* Efeito de transição suave */
+        box-shadow: 0px 0px 30px  white; /* Sombra inicial transparente */
+    }
+    
+
+    h1.titulo-rosa {
+        color:  #fc65ac;
+        font-size: 40px;
+        margin-top: 40px;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    p.texto{
+        color: white;
+        font-size: 25px;
+        text-align: justify;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    img.img-primeira{
+        width: 85%;
+        margin-top: 0px; /* Reduz a distância do topo ao passar o mouse */
+    }
+}
+
+/*SLIDE*/
+/* Estilo básico para a imagem */
+.img-fluid {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 0.5%;
+    top: 30px; /* Distância do topo */
+    transition: top 0.5s ease; /* Efeito de transição suave */
+    box-shadow: 0px 0px 30px  white; /* Sombra inicial transparente */
+}
+
+/* Estilo ao passar o mouse sobre a imagem */
+.img-fluid:hover {
+    top: 40px; /* Reduz a distância do topo ao passar o mouse */
+    box-shadow: 0px 0px 30px white; /* Adiciona sombra branca */
+}
+
+/*textos do body e imagens*/
+.titulo-rosa {
+    color:  #fc65ac;
+    font-size: 45px;
+    margin-top: 60px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-branco{
+    color:#ffffff;
+    margin-top: 60px;
+    text-align: justify;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.texto{
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-azul{
+    color: #1ef4fb;
+    margin-top: 60px;
+    text-align: justify;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.img-primeira{
+    width: 65%;
+    margin-top: 50px;
+    border-radius: 20px; /* Reduz a distância do topo ao passar o mouse */
+}
+
+/*Assuntos*/
+
+.col-12{
+    color:#ffffff;
+    margin-top: 80px;
+    text-align: justify;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.ass-1{
+    font-family:"Anton", sans-serif ;
+    color:#ffffff;
+    margin-top: 48px;
+    font-size: 30px;
+}
+
+.ass-2{
+    background:  #fc65aba1;
+    border-radius: 25px;
+    padding: 20px;
+    font-weight:"Abel", sans-serif ;
+    color:#ffffff;
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.ass-22{
+   
+    font-weight:"Abel", sans-serif ;
+    color:#ffffff;
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.entrevistas{
+    font-weight:"Abel", sans-serif;
+    color:#ffffff;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.img-segunda{
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.img-terceira{
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.img-quarta{
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.img-quinta{
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.img-entre1{
+    width: 50%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.img-entre2{
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.btn-btn-custom{
+    color:#ffffff;
+    background-color: #fc65ac;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px ;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+@media (max-width: 968px) {
+    
+.btn-btn-custom{
+    color:#ffffff;
+    background-color: #fc65ac;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px ;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: 'Abhaya Libre', serif;
+    margin: 25px auto; /* Adiciona auto à margem para centralizar */
+    display: block; /* Converte o botão em bloco para centralização */
+}
+}
+
+/*footer*/
+
+footer {
+    background-color: #fc65ac;
+    color: white;
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    flex-shrink: 0; /* Impede o footer de encolher */
+    margin-top: auto;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.footer-section {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer-bottom {
+    text-align: justify;
+    text-align: center;
+    padding: 10px;
+    background-color: #fc65ac;
+    color: white;
+    width: 100%;
+}
+
+/*Fim footer*/
+
+/* Adicionando transição para o conteúdo adicional */
+.more-content {
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+}
