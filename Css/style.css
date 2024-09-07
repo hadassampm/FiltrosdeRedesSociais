@@ -71,10 +71,10 @@ body {
     cursor: pointer;
 }
 
-.navbar-brand {
+a.navbar-brand {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 25px;
     cursor: pointer;
 }
 
@@ -87,7 +87,7 @@ ul.dropdown-menu.show{
     a.navbar-brand {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
+        font-size: 25px;
         margin-right: 0%;
         cursor: pointer;
     }
@@ -128,10 +128,9 @@ ul.dropdown-menu.show{
         box-shadow: 0px 0px 30px  white; /* Sombra inicial transparente */
     }
     
-
     h1.titulo-rosa {
         color:  #fc65ac;
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 40px;
         font-family: "Anton", sans-serif;
         font-weight: 400;
@@ -139,7 +138,7 @@ ul.dropdown-menu.show{
     }
     p.texto{
         color: white;
-        font-size: 25px;
+        font-size: 22px;
         text-align: justify;
         font-family: "Anton", sans-serif;
         font-weight: 400;
@@ -149,7 +148,14 @@ ul.dropdown-menu.show{
         width: 85%;
         margin-top: 0px; /* Reduz a distância do topo ao passar o mouse */
     }
+    h1.ass-1{
+        font-family:"Anton", sans-serif ;
+        color:#ffffff;
+        margin-top: 48px;
+        font-size: 25px;
+    }
 }
+
 
 /*SLIDE*/
 /* Estilo básico para a imagem */
